@@ -1,0 +1,325 @@
+body {
+  background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.11) 0px, rgba(0, 0, 0, 0.11) 12px, rgba(1, 1, 1, 0.16) 12px, rgba(1, 1, 1, 0.16) 24px,
+      rgba(0, 0, 0, 0.14) 24px, rgba(0, 0, 0, 0.14) 36px, rgba(0, 0, 0, 0.23) 36px, rgba(0, 0, 0, 0.23) 48px, rgba(0, 0, 0, 0.12) 48px, rgba(0, 0, 0, 0.12) 60px,
+      rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(0, 0, 0, 0.21) 72px, rgba(0, 0, 0, 0.21) 84px, rgba(0, 0, 0, 0.24) 84px, rgba(0, 0, 0, 0.24) 96px,
+      rgba(1, 1, 1, 0.23) 96px, rgba(1, 1, 1, 0.23) 108px, rgba(1, 1, 1, 0.07) 108px, rgba(1, 1, 1, 0.07) 120px, rgba(0, 0, 0, 0.01) 120px, rgba(0, 0, 0, 0.01) 132px,
+      rgba(1, 1, 1, 0.22) 132px, rgba(1, 1, 1, 0.22) 144px, rgba(1, 1, 1, 0.24) 144px, rgba(1, 1, 1, 0.24) 156px, rgba(0, 0, 0, 0) 156px, rgba(0, 0, 0, 0) 168px,
+      rgba(0, 0, 0, 0.12) 168px, rgba(0, 0, 0, 0.12) 180px), repeating-linear-gradient(90deg, rgba(1, 1, 1, 0.01) 0px, rgba(1, 1, 1, 0.01) 12px, rgba(1, 1, 1, 0.15) 12px,
+      rgba(1, 1, 1, 0.15) 24px, rgba(0, 0, 0, 0.09) 24px, rgba(0, 0, 0, 0.09) 36px, rgba(0, 0, 0, 0.02) 36px, rgba(0, 0, 0, 0.02) 48px, rgba(0, 0, 0, 0.1) 48px,
+      rgba(0, 0, 0, 0.1) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(1, 1, 1, 0.15) 72px, rgba(1, 1, 1, 0.15) 84px, rgba(0, 0, 0, 0.18) 84px,
+      rgba(0, 0, 0, 0.18) 96px, rgba(1, 1, 1, 0.15) 96px, rgba(1, 1, 1, 0.15) 108px, rgba(1, 1, 1, 0.09) 108px, rgba(1, 1, 1, 0.09) 120px, rgba(1, 1, 1, 0.07) 120px,
+      rgba(1, 1, 1, 0.07) 132px, rgba(1, 1, 1, 0.05) 132px, rgba(1, 1, 1, 0.05) 144px, rgba(0, 0, 0, 0.1) 144px, rgba(0, 0, 0, 0.1) 156px, rgba(1, 1, 1, 0.18) 156px,
+      rgba(1, 1, 1, 0.18) 168px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.24) 0px, rgba(0, 0, 0, 0.24) 16px, rgba(1, 1, 1, 0.06) 16px, rgba(1, 1, 1, 0.06) 32px,
+      rgba(0, 0, 0, 0.16) 32px, rgba(0, 0, 0, 0.16) 48px, rgba(1, 1, 1, 0) 48px, rgba(1, 1, 1, 0) 64px, rgba(1, 1, 1, 0.12) 64px, rgba(1, 1, 1, 0.12) 80px, rgba(1, 1, 1, 0.22) 80px,
+      rgba(1, 1, 1, 0.22) 96px, rgba(0, 0, 0, 0.24) 96px, rgba(0, 0, 0, 0.24) 112px, rgba(0, 0, 0, 0.25) 112px, rgba(0, 0, 0, 0.25) 128px, rgba(1, 1, 1, 0.12) 128px, rgba(1, 1, 1, 0.12) 144px,
+      rgba(0, 0, 0, 0.18) 144px, rgba(0, 0, 0, 0.18) 160px, rgba(1, 1, 1, 0.03) 160px, rgba(1, 1, 1, 0.03) 176px, rgba(1, 1, 1, 0.1) 176px, rgba(1, 1, 1, 0.1) 192px), repeating-linear-gradient(135deg, rgba(1, 1, 1, 0.18) 0px, rgba(1, 1, 1, 0.18) 3px,
+      rgba(0, 0, 0, 0.09) 3px, rgba(0, 0, 0, 0.09) 6px, rgba(0, 0, 0, 0.08) 6px, rgba(0, 0, 0, 0.08) 9px, rgba(1, 1, 1, 0.05) 9px, rgba(1, 1, 1, 0.05) 12px, rgba(0, 0, 0, 0.01) 12px, rgba(0, 0, 0, 0.01) 15px,
+      rgba(1, 1, 1, 0.12) 15px, rgba(1, 1, 1, 0.12) 18px, rgba(0, 0, 0, 0.05) 18px, rgba(0, 0, 0, 0.05) 21px, rgba(1, 1, 1, 0.16) 21px, rgba(1, 1, 1, 0.16) 24px, rgba(1, 1, 1, 0.07) 24px, rgba(1, 1, 1, 0.07) 27px,
+      rgba(1, 1, 1, 0.23) 27px, rgba(1, 1, 1, 0.23) 30px, rgba(0, 0, 0, 0.2) 30px, rgba(0, 0, 0, 0.2) 33px, rgba(0, 0, 0, 0.18) 33px, rgba(0, 0, 0, 0.18) 36px, rgba(1, 1, 1, 0.12) 36px, rgba(1, 1, 1, 0.12) 39px, rgba(1, 1, 1, 0.13) 39px,
+      rgba(1, 1, 1, 0.13) 42px, rgba(1, 1, 1, 0.2) 42px, rgba(1, 1, 1, 0.2) 45px, rgba(1, 1, 1, 0.18) 45px, rgba(1, 1, 1, 0.18) 48px, rgba(0, 0, 0, 0.2) 48px, rgba(0, 0, 0, 0.2) 51px, rgba(1, 1, 1, 0) 51px,
+      rgba(1, 1, 1, 0) 54px, rgba(0, 0, 0, 0.03) 54px, rgba(0, 0, 0, 0.03) 57px, rgba(1, 1, 1, 0.06) 57px, rgba(1, 1, 1, 0.06) 60px, rgba(1, 1, 1, 0) 60px, rgba(1, 1, 1, 0) 63px, rgba(0, 0, 0, 0.1) 63px,
+      rgba(0, 0, 0, 0.1) 66px, rgba(1, 1, 1, 0.19) 66px, rgba(1, 1, 1, 0.19) 69px), linear-gradient(90deg, rgb(239, 53, 115), rgb(79, 2, 93));
+
+
+    }
+
+#navBar {
+  width: auto;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.879);
+}
+
+#mySeriesWeb {
+  position: absolute;
+  color: aliceblue;
+  font-size: 25px;
+  top: -20px;
+  left: 27%;
+}
+
+#inp {
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  left: 40%;
+  top: 7px;
+  text-align: center;
+  border-radius: 25px;
+  border: 4px lightseagreen solid;
+}
+
+#btn {
+  position: absolute;
+  left: 58.5%;
+  /* left: 48%; */
+  width: 80px;
+  height: 25px;
+  top: 13px;
+  border-radius: 20px;
+  background-color: #13b8d1;
+  color: aliceblue;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#btn:hover {
+  transform: translateY(-2px);
+}
+
+#startsMSG{
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#lengthMSG{
+  display: none;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+#allMovies {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#oneMovie {
+  margin: 10px;
+  width: 350px;
+  height: 220px;
+  border: 0.5px lightgray solid;
+  box-shadow: 2px 0px 5px #888888;
+  overflow: hidden;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+#movieName {
+  position: relative;
+  display: inline;
+  left: 140px;
+  font-size: 23px;
+  font-weight: 600;
+
+}
+
+.movieDetails {
+  position: relative;
+  font-weight: 680;
+  left: 145px;
+}
+
+#movieBtn {
+  cursor: pointer;
+  position: relative;
+  left: 240px;
+  bottom: 35px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 800;
+  font-style: italic;
+  background-color: #888888;
+}
+
+#movieBtn:hover {
+  transform: translateY(-2px);
+  background-color: #13b8d1;
+  background-image: url();
+}
+
+#light_window {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#light_inside {
+  width: auto;
+  max-width: 600px;
+  background-color: aliceblue;
+  padding: 8px;
+  border-radius: 8px;
+  max-height: 500px;
+  overflow: auto;
+  background-image: linear-gradient(158deg, rgba(84, 84, 84, 0.03) 0%, rgba(84, 84, 84, 0.03) 20%, rgba(219, 219, 219, 0.03) 20%,
+      rgba(219, 219, 219, 0.03) 40%, rgba(54, 54, 54, 0.03) 40%, rgba(54, 54, 54, 0.03) 60%, rgba(99, 99, 99, 0.03) 60%,
+      rgba(99, 99, 99, 0.03) 80%, rgba(92, 92, 92, 0.03) 80%, rgba(92, 92, 92, 0.03) 100%), linear-gradient(45deg, rgba(221, 221, 221, 0.02) 0%,
+      rgba(221, 221, 221, 0.02) 14.286%, rgba(8, 8, 8, 0.02) 14.286%, rgba(8, 8, 8, 0.02) 28.572%, rgba(52, 52, 52, 0.02) 28.572%,
+      rgba(52, 52, 52, 0.02) 42.858%, rgba(234, 234, 234, 0.02) 42.858%, rgba(234, 234, 234, 0.02) 57.144%, rgba(81, 81, 81, 0.02) 57.144%, rgba(81, 81, 81, 0.02) 71.42999999999999%, rgba(239, 239, 239, 0.02) 71.43%, rgba(239, 239, 239, 0.02) 85.71600000000001%, rgba(187, 187, 187, 0.02) 85.716%, rgba(187, 187, 187, 0.02) 100.002%), linear-gradient(109deg, rgba(33, 33, 33, 0.03) 0%,
+      rgba(33, 33, 33, 0.03) 12.5%, rgba(147, 147, 147, 0.03) 12.5%, rgba(147, 147, 147, 0.03) 25%, rgba(131, 131, 131, 0.03) 25%,
+      rgba(131, 131, 131, 0.03) 37.5%, rgba(151, 151, 151, 0.03) 37.5%, rgba(151, 151, 151, 0.03) 50%, rgba(211, 211, 211, 0.03) 50%,
+      rgba(211, 211, 211, 0.03) 62.5%, rgba(39, 39, 39, 0.03) 62.5%, rgba(39, 39, 39, 0.03) 75%, rgba(55, 55, 55, 0.03) 75%,
+      rgba(55, 55, 55, 0.03) 87.5%, rgba(82, 82, 82, 0.03) 87.5%, rgba(82, 82, 82, 0.03) 100%), linear-gradient(348deg, rgba(42, 42, 42, 0.02) 0%,
+      rgba(42, 42, 42, 0.02) 20%, rgba(8, 8, 8, 0.02) 20%, rgba(8, 8, 8, 0.02) 40%, rgba(242, 242, 242, 0.02) 40%, rgba(242, 242, 242, 0.02) 60%,
+      rgba(42, 42, 42, 0.02) 60%, rgba(42, 42, 42, 0.02) 80%, rgba(80, 80, 80, 0.02) 80%, rgba(80, 80, 80, 0.02) 100%),
+    linear-gradient(120deg, rgba(106, 106, 106, 0.03) 0%, rgba(106, 106, 106, 0.03) 14.286%, rgba(67, 67, 67, 0.03) 14.286%,
+      rgba(67, 67, 67, 0.03) 28.572%, rgba(134, 134, 134, 0.03) 28.572%, rgba(134, 134, 134, 0.03) 42.858%, rgba(19, 19, 19, 0.03) 42.858%, rgba(19, 19, 19, 0.03) 57.144%, rgba(101, 101, 101, 0.03) 57.144%, rgba(101, 101, 101, 0.03) 71.42999999999999%,
+      rgba(205, 205, 205, 0.03) 71.43%, rgba(205, 205, 205, 0.03) 85.71600000000001%, rgba(53, 53, 53, 0.03) 85.716%,
+      rgba(53, 53, 53, 0.03) 100.002%), linear-gradient(45deg, rgba(214, 214, 214, 0.03) 0%, rgba(214, 214, 214, 0.03) 16.667%,
+      rgba(255, 255, 255, 0.03) 16.667%, rgba(255, 255, 255, 0.03) 33.334%, rgba(250, 250, 250, 0.03) 33.334%, rgba(250, 250, 250, 0.03) 50.001000000000005%, rgba(231, 231, 231, 0.03) 50.001%, rgba(231, 231, 231, 0.03) 66.668%, rgba(241, 241, 241, 0.03) 66.668%, rgba(241, 241, 241, 0.03) 83.33500000000001%, rgba(31, 31, 31, 0.03) 83.335%, rgba(31, 31, 31, 0.03) 100.002%), linear-gradient(59deg, rgba(224, 224, 224, 0.03) 0%, rgba(224, 224, 224, 0.03) 12.5%, rgba(97, 97, 97, 0.03) 12.5%, rgba(97, 97, 97, 0.03) 25%, rgba(143, 143, 143, 0.03) 25%, rgba(143, 143, 143, 0.03) 37.5%, rgba(110, 110, 110, 0.03) 37.5%, rgba(110, 110, 110, 0.03) 50%, rgba(34, 34, 34, 0.03) 50%, rgba(34, 34, 34, 0.03) 62.5%, rgba(155, 155, 155, 0.03) 62.5%, rgba(155, 155, 155, 0.03) 75%, rgba(249, 249, 249, 0.03) 75%, rgba(249, 249, 249, 0.03) 87.5%, rgba(179, 179, 179, 0.03) 87.5%, rgba(179, 179, 179, 0.03) 100%), linear-gradient(241deg, rgba(58, 58, 58, 0.02) 0%, rgba(58, 58, 58, 0.02) 25%, rgba(124, 124, 124, 0.02) 25%, rgba(124, 124, 124, 0.02) 50%, rgba(254, 254, 254, 0.02) 50%, rgba(254, 254, 254, 0.02) 75%, rgba(52, 52, 52, 0.02) 75%, rgba(52, 52, 52, 0.02) 100%), linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+#title {
+  position: relative;
+  left: 260px;
+  bottom: 260px;
+  font-weight: 700;
+
+}
+
+#img {
+  height: 250px;
+}
+
+.insideInfo {
+  position: relative;
+  left: 300px;
+  bottom: 220px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#plot {
+  position: relative;
+  bottom: 160px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#infoBtn {
+  position: relative;
+  left: 250px;
+  width: 100px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #13b8d1;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+  top: -100px;
+}
+
+#infoBtn:hover {
+  transform: translateY(-2px);
+  color: aliceblue;
+}
+
+
+@media(max-width:1350px){
+  #mySeriesWeb {
+    position: absolute;
+    left: 0;
+  }
+  #inp{
+    position: absolute;
+    left: 180px;
+  }
+  #btn{
+    position: absolute;
+    left: 450px;
+  }
+}
+@media(max-width:700px) {
+  body {
+    background-color: #13b8d1;
+  }
+
+  #mySeriesWeb {
+    position: absolute;
+    left: 15px;
+    margin-top: 35px;
+    font-size: 14px;
+  }
+
+  #inp {
+    width: 150px;
+    position: absolute;
+    left: 120px;
+  }
+
+  #btn {
+    position: absolute;
+    left: 290px;
+  }
+  #startsMSG{
+    font-size: 30px;
+    margin-top: 35%;
+  }
+
+  #lengthMSG{
+    font-size: 30px;
+    margin-top: 35%;
+  }
+  #allMovies {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #light_window {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  #light_inside {
+    background-color: aliceblue;
+    width: 300px;
+    height: 700px;
+    border: 2px white solid;
+    position: absolute;
+    left: 45px;
+    text-align: center;
+  }
+
+  #title {
+    position: absolute;
+    left: 20px;
+    bottom: 160px;
+  }
+
+  .insideInfo {
+    position: relative;
+    /* bottom: 180px; */
+    color: blueviolet;
+    left: 0;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: -60px;
+  }
+
+  #plot {
+    position: relative;
+    top: 60px;
+  }
+
+  #infoBtn {
+    position: relative;
+    top: 90px;
+    left: 0;
+    width: 100px;
+    height: 28px;
+    border-radius: 14px;
+    background-color: #13b8d1;
+    color: black;
+    font-weight: 900;
+  }
+}
