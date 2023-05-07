@@ -322,4 +322,8 @@ body {
     color: black;
     font-weight: 900;
   }
+  #movieBtn{
+    height: 50px;
+    background-color: #13b8d1;
+  }
 }

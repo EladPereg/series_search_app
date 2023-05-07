@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import MoreInfo from "./components/MoreInfo";
 
+
 function App() {
   const [name, setNmae] = useState('')
   const [arr, setArr] = useState([])
